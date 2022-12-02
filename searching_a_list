@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    int a[30],e,n,i;
+    printf("enter no. of elements you want to input \n");
+    scanf("%d", &n);
+    printf("enter the values: \n");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d", &a[i]);
+    }
+    printf("enter the no. to be searched ");
+    scanf("%d", &e);
+    i=0;
+    while(i<n && e!=a[i])
+    {
+        i++;
+    }
+    if(i<n)
+    {
+        printf("number found at the location is %d ", i+1);
+    }
+    else
+    {
+        printf("number not found");
+    }
+
+}
