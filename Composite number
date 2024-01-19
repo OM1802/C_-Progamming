@@ -10,8 +10,8 @@ int main()
         c=c+1;
     }
     if (c==2)
-    printf ("The number is PRIME");
+    printf ("The number is not a composite number");
     else
-    printf ("The number is COMPOSITE");
+    printf ("The number is a composite number");
     return 0;
 }
