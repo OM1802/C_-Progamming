@@ -1,3 +1,4 @@
+// c code to find the sum of digits in a number 
 #include <stdio.h>
  
 int main(void)
