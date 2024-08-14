@@ -1,3 +1,4 @@
+// C code to check if a number is rational or not
 #include <stdio.h>
 
 int isRational(double num) {
