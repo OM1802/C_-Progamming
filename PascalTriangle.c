@@ -1,4 +1,5 @@
-include <stdio.h> 
+// C code to print pascal triangle 
+#include <stdio.h> 
 
 void printPascal(int n) 
 { 
