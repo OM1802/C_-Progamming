@@ -1,3 +1,4 @@
+//C code to implement shell sort
 #include <stdio.h>    
 /* function for implementing shellSort */  
 int shell(int a[], int b)  
